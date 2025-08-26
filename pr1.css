@@ -1,0 +1,61 @@
+body {
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Figtree;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: solid 1px #121212ff;
+    box-shadow: 7px 7px 0 0 #121212ff ;
+}
+
+
+img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ler {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    width:65px ;
+    text-align: center;
+    padding: 6px 12PX;
+    font-weight: bold;
+}
+.dat {
+    margin: 10px 0;
+}
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    color: #121212ff;
+}
+.descri {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+li {
+    font-weight: bold;
+    font-size: 16px;
+    list-style: none;
+    position: relative;
+    top: 10px;
+    left: -40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0px;
+}
+.prf {
+    width: 40px;
+    height: 40px;
+    margin: 0 2px;
+}
